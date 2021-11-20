@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="co.acuasoftsystemapp.dao.OperadoresMapper">
+  <resultMap id="BaseResultMap" type="co.acuasoftsystemapp.model.Operadores">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="cedula" jdbcType="INTEGER" property="cedula" />
+    <result column="nombre1" jdbcType="VARCHAR" property="nombre1" />
+    <result column="nombre2" jdbcType="VARCHAR" property="nombre2" />
+    <result column="apellido1" jdbcType="VARCHAR" property="apellido1" />
+    <result column="apellido2" jdbcType="VARCHAR" property="apellido2" />
+    <result column="telefono" jdbcType="VARCHAR" property="telefono" />
+    <result column="direccion" jdbcType="VARCHAR" property="direccion" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="estado" jdbcType="BIT" property="estado" />
+  </resultMap>
+</mapper>
